@@ -21,14 +21,25 @@ def lee_libros(ruta_csv):
 
 
 # TODO: Implemente las funciones solicitadas en el enunciado
+def autores_disponibles(libros, inicial):
+    pass
 
+
+def titulos_baratos_actuales(libros):
+    pass
+
+
+def media_precios(libros, palabra):
+    pass
+
+
+def libro_mas_reciente(libros):
+    pass
 
 
 if __name__ == "__main__":
     libros = lee_libros("data/libreria.csv")
     print(f"Se han leído {len(libros)} libros.")
-
-    # TODO: Prueba las funciones del ejercicio a continuación
 
     print("Autores disponibles:", autores_disponibles(libros, "M"))
     print("Titulos baratos actuales:", titulos_baratos_actuales(libros))
